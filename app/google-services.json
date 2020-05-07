@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "754490805117",
+    "firebase_url": "https://patient-10742.firebaseio.com",
+    "project_id": "patient-10742",
+    "storage_bucket": "patient-10742.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754490805117:android:bd71b5352e90671f471a14",
+        "android_client_info": {
+          "package_name": "com.example.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754490805117-e2hfjuvljt21rm3773uuq2jdricdharm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzetlx1FviZ_AOzVXMNg7yihTwaKNeiBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754490805117-e2hfjuvljt21rm3773uuq2jdricdharm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

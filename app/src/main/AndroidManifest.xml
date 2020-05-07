@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patient">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginandreg.PatientLogin"></activity>
+        <activity android:name=".loginandreg.DcLogin" />
+        <activity android:name=".loginandreg.PatientRegistration" />
+        <activity android:name=".loginandreg.DcRegsitration" />
+        <activity android:name=".FirstAppointmentTime" />
+        <activity android:name=".BookingDR" />
+        <activity android:name=".DrDetailsForPatient" />
+        <activity android:name=".ViewReportForDc" />
+        <activity android:name=".PatientMainActivty" />
+        <activity android:name=".DcMainActivity" />
+        <activity android:name=".ReportAdd" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

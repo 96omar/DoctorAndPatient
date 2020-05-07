@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Patient</string>
+    <!-- start of Strings for validation -->
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="addresserror">Enter You\'r Address</string>
+    <string name="invalid_age_trusted">Enter Valid Age that between 20 and 70</string>
+    <string name="err_major">Enter Valid Major Like "You\'r Title"</string>
+    <string name="emailerror">Enter Valid Email that must like "example.4@gmail.com"</string>
+    <string name="passworderror">Enter Valid Password that must contains one digit from 0-9 and length at least 6 characters and maximum of 20</string>
+    <string name="err_password_confirmation">Password and Re-Password not match Please Ensure From It</string>
+    <string name="mobileerror">Enter Valid Mobile Number that must contain numbers that length 11 and including character [+] infront that is optional </string>
+    <!-- end of Strings for validation -->
+</resources>

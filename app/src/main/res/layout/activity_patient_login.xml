@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginandreg.PatientLogin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_shadow_start_color"
+                android:clickable="true"
+                android:elevation="3dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:cardCornerRadius="9dp"
+                card_view:cardElevation="5dp"
+                card_view:cardMaxElevation="5dp"
+                card_view:contentPadding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@color/cardview_light_background">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="120dp"
+                        android:backgroundTint="@color/cardview_shadow_start_color"
+                        android:src="@mipmap/patient"
+                        android:contentDescription="todo" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Sign In"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/p_id_text_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/cardview_light_background"
+                        android:ems="10"
+                        android:focusable="true"
+                        android:hint="Patient ID"
+                        android:inputType="text"
+                        android:padding="20dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/cardview_shadow_start_color" />
+
+                    <EditText
+                        android:id="@+id/p_pass_text_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/cardview_light_background"
+                        android:ems="10"
+                        android:focusable="true"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:padding="20dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/cardview_shadow_start_color" />
+
+                    <Button
+                        android:id="@+id/p_btn_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/cardview_dark_background"
+                        android:text="Sign In"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/cardview_dark_background" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="I don\'t have an account"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="17sp" />
+
+                    <Button
+                        android:id="@+id/p_reg_btn_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/cardview_shadow_start_color"
+                        android:text="Sign up"
+                        android:textAllCaps="true"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
